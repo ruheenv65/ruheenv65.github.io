@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>project</title>
+<!--Ruheen Vahora. CSCE 102, 13, 2/1/2023-->
+</head>
+<body>
+	<div id="content">
+	<header>
+		<h1>Ruheen Vahora</h1>
+	</header>
+	<nav id="main-nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="quiz.html">Quiz</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+	<main id="quiz">
+		<p>
+	<label for="sel-html">What should you name your SciTe document?</label>
+	<select id="sel-html">
+		<option>index.html</option>
+		<option>html</option>
+		<option>java</option>
+		<option>styles</option>
+		</select>
+	</p>
+	<p>
+	<label for="sel-styles">What is the symbol for class in styles.css?</label>
+	<select id="sel-styles">
+		<option>.</option>
+		<option>#</option>
+		<option>;</option>
+		<option>;</option>
+		</select>
+	</p>
+			<p>
+	<label for="sel-padding">How do you create space between text and border?</label>
+	<select id="sel-padding">
+		<option>padding:5px;</option>
+		<option>border:5px;</option>
+		<option>margin:5px;</option>
+		<option>radius:5px;</option>
+		</select>
+	</p>
+			<p>
+	<label for="sel-white">How do you make a foreground white?</label>
+	<select id="sel-white">
+		<option>color:white;	</option>
+		<option>background:white;</option>
+		<option>font:white;</option>
+		<option>color:black;</option>
+		</select>
+	</p>
+	<button onclick="showGrade()">Submit</button>
+	<p id="result" class="hidden">
+	</p>
+	</main>
+	<footer>
+		<p>&#64; My copywrite</p>
+	</footer>
+	</div>
+		<script src="script.js"></script>
+</body>
+</html>
